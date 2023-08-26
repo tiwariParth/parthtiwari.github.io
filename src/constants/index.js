@@ -131,16 +131,15 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "HooBank",
+    description:"A modern way to banking, this is a conceptual UI design which displays the future of banking",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "react-router-dom",
         color: "green-text-gradient",
       },
       {
