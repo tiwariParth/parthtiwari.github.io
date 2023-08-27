@@ -31,7 +31,7 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
+    id: "works",
     title: "Work",
   },
   {
@@ -133,7 +133,7 @@ const projects = [
   {
     name: "HooBank",
     description:
-      "A modern way to banking, this is a conceptual UI design which displays the future of banking",
+      "A modern way to banking,A conceptual UI design which displays the future of banking",
     tags: [
       {
         name: "react",
