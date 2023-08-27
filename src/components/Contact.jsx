@@ -16,8 +16,51 @@ const Contact = () => {
   });
   const [loading, setloading] = useState(false);
 
-  const handleChange = (e) => {};
-  const handleSubmit = (e) => {};
+  const handleChange = (e) => {
+    const { target } = e;
+    const { name, value } = target;
+
+    setform({
+      ...form,
+      [name]: value,
+    });
+  };
+  const handleSubmit = (e) => {
+    //template_c0yxs0c
+    //service_bb84ssk
+    //VwPwmJMebeclLIDN-
+    e.preventDefault();
+    setloading(true);
+    emailjs
+      .send(
+        "service_bb84ssk",
+        "template_c0yxs0c",
+        {
+          from_name: form.name,
+          to_name: "Parth",
+          from_email: form.email,
+          to_email: "1002tiwaripp@gmail.com",
+          message: form.message,
+        },
+        "VwPwmJMebeclLIDN-"
+      )
+      .then(
+        () => {
+          setloading(false);
+          alert("Thank you. We will get in touch soon.");
+          setform({
+            name: "",
+            email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          setloading(false);
+          console.log("error", error);
+          alert("Something went wrong. Please try again later.");
+        }
+      );
+  };
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
       <motion.div
