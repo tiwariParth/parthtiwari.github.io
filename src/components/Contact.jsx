@@ -26,9 +26,6 @@ const Contact = () => {
     });
   };
   const handleSubmit = (e) => {
-    //template_c0yxs0c
-    //service_bb84ssk
-    //VwPwmJMebeclLIDN-
     e.preventDefault();
     setloading(true);
     emailjs
