@@ -33,7 +33,14 @@ const Contact = () => {
         >
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Name</span>
-            <input type="text" name="name" value={form.name} />
+            <input
+              type="text"
+              name="name"
+              value={form.name}
+              onChange={handleChange}
+              placeholder="What's your name?"
+              className="bg-tertiary py-4 px-6 placeholder:text-white rounded-lg outline-none border-none font-medium"
+            />
           </label>
         </form>
       </motion.div>
