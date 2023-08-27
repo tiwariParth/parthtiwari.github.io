@@ -19,10 +19,11 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  hooBank,
+  techystar,
+  videohub,
   threejs,
+  web,
 } from "../assets";
 
 export const navLinks = [
@@ -132,7 +133,8 @@ const testimonials = [
 const projects = [
   {
     name: "HooBank",
-    description:"A modern way to banking, this is a conceptual UI design which displays the future of banking",
+    description:
+      "A modern way to banking, this is a conceptual UI design which displays the future of banking",
     tags: [
       {
         name: "react",
@@ -147,20 +149,21 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: hooBank,
+    source_code_link: "https://github.com/tiwariParth/ModernBankApp",
+    liveURL: "https://modern-bank-app-roan.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "VideoHUB",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A platform where you can get free video samples and upload one of your own",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "ChakraUI",
         color: "green-text-gradient",
       },
       {
@@ -168,29 +171,30 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: videohub,
+    source_code_link: "https://github.com/tiwariParth/Videohub",
+    liveURL: "https://videohubproject.netlify.app/",
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    name: "TechyStar",
+    description: "This is a landing page for a web based serive buissness ",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "scss",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "css animation",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: techystar,
+    source_code_link: "https://github.com/tiwariParth/Techystar-LandingPage",
+    liveURL: "https://techystarreactapp.netlify.app/",
   },
 ];
 
