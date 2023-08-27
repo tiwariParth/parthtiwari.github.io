@@ -23,7 +23,6 @@ import {
   techystar,
   videohub,
   threejs,
-  web,
 } from "../assets";
 
 export const navLinks = [
